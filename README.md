@@ -1,39 +1,41 @@
+
 # House Purchase Decision Helper
 
 ## Overview
-The `house.py` script is designed to help users decide whether buying a house is a financially viable option compared to renting. It takes into account various financial inputs from the user, such as annual income, savings, and monthly expenses, as well as specific details about the potential home purchase like cost, mortgage rate, and maintenance costs.
+The `house.py` script assists users in determining whether purchasing a house is a financially sound decision compared to renting. It evaluates various financial aspects, such as annual income, savings, monthly expenses, and specifics of the potential home purchase, including cost, mortgage rate, and maintenance expenses.
 
 ## Features
 
-- **Mortgage Payment Calculation**: Calculates the monthly mortgage payment based on the loan amount, mortgage rate, and loan term.
-- **Cost Comparison**: Compares the total cost of buying a home versus renting over a specified time period.
-- **Financial Analysis**: Provides a mortgage-to-income ratio to assess the affordability of the mortgage payments.
-- **Decision Guidance**: Offers a recommendation on whether buying or renting is more financially sensible based on the user's circumstances and input parameters.
+- **Mortgage Payment Calculation**: Computes the monthly mortgage payment considering the loan amount, mortgage rate, and the term of the loan.
+- **Cost Comparison**: Analyzes the total costs associated with buying a home versus renting for a specified duration, helping to outline long-term financial implications.
+- **Financial Analysis**: Provides insights into the mortgage-to-income ratio, an important indicator of the affordability of the home based on the user's income.
+- **Decision Guidance**: Delivers a tailored recommendation on whether to buy or rent, based on a comprehensive assessment of the user's financial situation and housing market factors.
 
 ## How It Works
 
-1. **Input Gathering**: The script prompts the user for financial details such as:
+1. **Input Gathering**: The script requests essential financial information from the user, including:
    - Annual income
    - Savings
    - Monthly expenses
-   - Desired home cost
+   - Cost of the desired home
    - Expected mortgage rate
    - Down payment percentage
-   - Years planning to stay in the home
+   - Planned duration of stay in the home
    - Annual property tax
-   - Maintenance cost as a percentage of home cost
+   - Estimated annual maintenance costs as a percentage of the home's cost
    - Monthly rent for a comparable property
 
 2. **Calculations**:
-   - The script calculates the potential monthly mortgage payment, total annual costs of owning a home, and the mortgage-to-income ratio.
-   - It compares the total cost of owning a home versus renting for the duration the user plans to stay in the home.
+   - It calculates the potential monthly mortgage payment and total annual ownership costs, including mortgage, property taxes, and maintenance.
+   - It evaluates the total cost of ownership versus renting over the planned period of residency.
 
 3. **Decision Output**:
-   - Based on the financial calculations and comparisons, the script advises whether buying or renting is a more financially prudent decision.
+   - The script synthesizes the calculated data to provide a decision on whether buying or renting would be more advantageous financially.
 
 ## Usage
 
-Run the script in a Python environment:
+To use the script, run it in a Python environment with the following command:
 
 ```bash
 python house.py
+```
